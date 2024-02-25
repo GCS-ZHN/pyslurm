@@ -137,7 +137,7 @@ SBATCH_OPTIONS = [
     SbatchOpt("o", "output", "standard_output"),
     SbatchOpt("O", "overcommit", "overcommit", True),
     SbatchOpt("s", "oversubscribe", "resource_sharing", "yes"),
-    SbatchOpt("p", "partition", "partition"),
+    SbatchOpt("p", "partition", "partitions"),
     SbatchOpt(None, "power", "power_options"),
     SbatchOpt(None, "prefer", None),
     SbatchOpt(None, "priority", "priority"),
